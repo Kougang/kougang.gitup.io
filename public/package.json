@@ -1,0 +1,13 @@
+{
+  "name": "projet1",
+  "version": "1.0.0",
+  "description": "site d'hebergement en ligne",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style expanded",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "author": "SOPJIO",
+  "license": "ISC",
+  "browserslist": "last 4 versions"
+}
